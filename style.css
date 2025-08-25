@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:content-box;/*a largura e a altura definidas no CSS afetam apenas o conteúdo. 
+  Padding e bordas são adicionados depois*/
+}
+
+html, body {
+  font-family: Tahoma, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.patrocinador {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap; /* Quebra linha em telas pequenas */
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Espaçamento entre os boxes */
+}
+
+/* Box para cada patrocinador */
+/*Define um quadrado para cada patrocinador com fundo rosa, cantos arredondados (circular), centralizado com Flexbox.*/
+.box {
+  background-color: #ff7cab;
+  padding: 20px;
+  border-radius: 70px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patrocinador img {
+  max-width: 90%;
+  max-height: 90%;
+  
+}
+
+.header {
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.header h1 {
+  font-size: 10%;
+  
+}
+
+/* footer */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+footer p {
+  color:#7e7e7e;
+  font-size: 14px;
+}
